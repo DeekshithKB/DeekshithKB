@@ -300,17 +300,17 @@ No Cisco certification is listed in the current professional profile.
 <div align="center">
 
 <a href="https://github.com/DeekshithKB">
-<img src="https://github-readme-stats.vercel.app/api?username=DeekshithKB&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB&rank_icon=github&include_all_commits=true&count_private=true" width="48%"/>
+<img src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=DeekshithKB&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%"/>
 </a>
 
 <a href="https://github.com/DeekshithKB">
-<img src="https://streak-stats.demolab.com?user=DeekshithKB&theme=transparent&hide_border=true&background=0D1117&ring=A78BFA&fire=8B5CF6&currStreakLabel=A78BFA&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" width="48%"/>
+<img src="https://streak-stats.demolab.com/?user=DeekshithKB&theme=tokyonight&hide_border=true&ring=7C3AED&fire=8B5CF6&currStreakLabel=A78BFA" width="48%"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/DeekshithKB">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeekshithKB&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&langs_count=8&count_private=true" width="48%"/>
+<img src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api/top-langs/?username=DeekshithKB&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true" width="48%"/>
 </a>
 
 </div>
@@ -321,7 +321,7 @@ No Cisco certification is listed in the current professional profile.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=DeekshithKB&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" width="95%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=DeekshithKB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" width="95%"/>
 
 </div>
 
