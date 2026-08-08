@@ -96,12 +96,12 @@ I follow a product-engineering mindset: understand the problem, design the archi
 
 | Domain | Proficiency | Details |
 |---|:---:|---|
-| Machine Learning | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘ | Applied ML concepts within software and product development |
-| Deep Learning | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘ | Practical exposure using PyTorch and TensorFlow |
-| Natural Language Processing | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘ | NLP pipelines and voice-based AI systems |
-| Generative AI | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘ | AI-powered product development and intelligent itinerary generation |
-| AI Product Engineering | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘ | Integrating AI capabilities into full-stack applications |
-| API-Oriented AI Systems | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘ | Orchestrating multiple APIs into cohesive AI-powered products |
+| Machine Learning | ████████░░ 80% | Applied ML concepts within software and product development |
+| Deep Learning | ███████░░░ 70% | Practical exposure using PyTorch and TensorFlow |
+| Natural Language Processing | █████████░ 90% | NLP pipelines and voice-based AI systems |
+| Generative AI | ████████░░ 80% | AI-powered product development and intelligent itinerary generation |
+| AI Product Engineering | █████████░ 90% | Integrating AI capabilities into full-stack applications |
+| API-Oriented AI Systems | █████████░ 90% | Orchestrating multiple APIs into cohesive AI-powered products |
 
 ---
 
