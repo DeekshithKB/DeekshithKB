@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:6d28d9,100:312e81&height=180&section=header&text=DEEKSHITH%20K%20B&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Cloud%20Computing&descAlignY=58&descSize=17" width="100%"/>
-
-<a href="https://readme-typing-svg.demolab.com/">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=750&lines=AI%2FML+Engineer;Full+Stack+Developer;Cloud+Computing+Enthusiast;Building+AI-Powered+Products;Engineering+Scalable+Applications" alt="Typing SVG"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:6D28D9,100:4C1D95&height=190&section=header&text=DEEKSHITH%20K%20B&fontSize=44&fontColor=FFFFFF&fontAlignY=35&desc=AI%2FML%20ENGINEER%20%7C%20FULL%20STACK%20DEVELOPER%20%7C%20CLOUD%20COMPUTING&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <br/>
+
+<a href="https://readme-typing-svg.demolab.com/">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;Full+Stack+Developer;Cloud+Computing+Enthusiast;Building+AI-Powered+Products;Engineering+Scalable+Applications;Turning+Ideas+Into+Production-Ready+Systems" alt="Typing SVG"/>
+</a>
+
+<br/><br/>
 
 <img src="https://img.shields.io/badge/B.E.-Artificial%20Intelligence%20%26%20Machine%20Learning-6D28D9?style=for-the-badge&logo=academia&logoColor=white"/>
 <img src="https://img.shields.io/badge/CGPA-8.20%2F10-4C1D95?style=for-the-badge&logo=google-scholar&logoColor=white"/>
@@ -14,24 +16,27 @@
 
 <br/><br/>
 
-<a href="https://github.com/">
+<a href="https://github.com/DeekshithKB?tab=repositories">
 <img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
-<a href="https://www.linkedin.com/">
+
+<a href="https://www.linkedin.com/in/deekshith-k-b-484167286/">
 <img src="https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
+
 <a href="mailto:kbdeekshith1@gmail.com">
 <img src="https://img.shields.io/badge/Email-312E81?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://github.com/">
+
+<a href="https://github.com/DeekshithKB">
 <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=github&label=PROFILE%20VIEWS&color=6D28D9&style=flat-square"/>
-<img src="https://img.shields.io/github/followers/github?label=FOLLOWERS&style=flat-square&color=4C1D95"/>
-<img src="https://img.shields.io/github/stars/github?label=STARS&style=flat-square&color=7C3AED"/>
+<img src="https://komarev.com/ghpvc/?username=DeekshithKB&label=PROFILE%20VIEWS&color=6D28D9&style=flat-square"/>
+<img src="https://img.shields.io/github/followers/DeekshithKB?label=FOLLOWERS&style=flat-square&color=4C1D95"/>
+<img src="https://img.shields.io/github/stars/DeekshithKB?label=STARS&style=flat-square&color=7C3AED"/>
 
 </div>
 
@@ -41,11 +46,11 @@
 
 I am a **Final-year Artificial Intelligence and Machine Learning engineering student and Full Stack Developer** focused on building scalable, production-oriented software systems.
 
-My engineering work spans **AI/ML, Generative AI, full-stack development, REST API architecture, cloud computing, databases, and developer tooling**. I enjoy turning complex technical requirements into reliable, maintainable products with a strong emphasis on practical engineering and user experience.
+My engineering work spans **AI/ML, Generative AI, full-stack development, REST API architecture, cloud computing, databases, and developer tooling**. I enjoy transforming complex technical requirements into reliable, maintainable products with a strong emphasis on practical engineering and user experience.
 
-My current technical foundation includes **JavaScript, Python, Java, React.js, Node.js, Express.js, MongoDB, MySQL, REST APIs, Git/GitHub, and AWS**. I also work with AI/ML technologies including **Machine Learning, Deep Learning, NLP, PyTorch, and TensorFlow**.
+My technical foundation includes **JavaScript, Python, Java, React.js, Node.js, Express.js, MongoDB, MySQL, REST APIs, Git/GitHub, and AWS**. I also work with AI/ML technologies including **Machine Learning, Deep Learning, Natural Language Processing, PyTorch, and TensorFlow**.
 
-I follow a product-engineering mindset: understand the problem, design the architecture, integrate the right technologies, build iteratively, test continuously, and deliver something that provides measurable value.
+I follow a product-engineering mindset: understand the problem, design the architecture, integrate the right technologies, build iteratively, test continuously, and deliver software that provides measurable value.
 
 ### Open To
 
@@ -57,31 +62,31 @@ I follow a product-engineering mindset: understand the problem, design the archi
 
 ### Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=js,python,java,sql,html,css&theme=dark" />
+<p align="left">
+<img src="https://skillicons.dev/icons?i=js,python,java,mysql,html,css&theme=dark" />
 </p>
 
 ### Frontend
 
-<p>
+<p align="left">
 <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
 </p>
 
 ### Backend & Databases
 
-<p>
+<p align="left">
 <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" />
 </p>
 
 ### Cloud, DevOps & Tooling
 
-<p>
+<p align="left">
 <img src="https://skillicons.dev/icons?i=aws,docker,git,github,postman,vscode&theme=dark" />
 </p>
 
 ### AI / ML
 
-<p>
+<p align="left">
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python&theme=dark" />
 </p>
 
@@ -92,7 +97,7 @@ I follow a product-engineering mindset: understand the problem, design the archi
 | Domain | Proficiency | Details |
 |---|:---:|---|
 | Machine Learning | ████████░░ | Applied ML concepts within software and product development |
-| Deep Learning | ███████░░░ | Practical exposure through PyTorch and TensorFlow |
+| Deep Learning | ███████░░░ | Practical exposure using PyTorch and TensorFlow |
 | Natural Language Processing | ████████░░ | NLP pipelines and voice-based AI systems |
 | Generative AI | ████████░░ | AI-powered product development and intelligent itinerary generation |
 | AI Product Engineering | █████████░ | Integrating AI capabilities into full-stack applications |
@@ -113,23 +118,23 @@ An AI-powered, production-style travel planning platform designed to generate pe
 |---|---|
 | **Stack** | JavaScript, React.js, Node.js, Express.js, REST APIs, JSON |
 | **Scale** | Multi-API full-stack application |
-| **Performance** | Normalized external API responses through modular backend orchestration |
+| **Performance** | Modular API orchestration and normalized external responses |
 | **Security** | User authentication and controlled API integration |
 | **Impact** | Personalized itineraries, hotel recommendations, budget estimation and destination visualization |
-| **Repository** | GitHub |
+| **Repository** | [GitHub](https://github.com/DeekshithKB) |
 
 ### Engineering Highlights
 
 - Engineered a full-stack AI-powered travel planning platform using **React.js, Node.js and Express.js**.
 - Integrated multiple third-party REST APIs to generate dynamic and personalized travel itineraries.
 - Implemented AI-driven itinerary generation combining destination insights, tourist attractions and real-time weather information.
-- Built hotel recommendation and budget estimation modules based on travel preferences and dates.
+- Built hotel recommendation and budget estimation modules based on travel preferences and travel dates.
 - Integrated Maps API functionality for interactive destination and point-of-interest visualization.
 - Developed a responsive and mobile-friendly user interface.
 - Implemented secure user authentication for personalized trip planning.
 - Architected a modular Express.js backend with RESTful endpoints for external API orchestration.
 - Normalized external API responses to improve consistency and maintainability.
-- Managed development workflow and version control using Git and GitHub.
+- Managed version control and collaborative development workflow using Git and GitHub.
 
 </details>
 
@@ -140,21 +145,22 @@ An AI-powered, production-style travel planning platform designed to generate pe
 
 <br/>
 
-An AI-powered voice assistant designed for hands-free interaction and smart automation using NLP and Raspberry Pi hardware.
+An AI-powered voice assistant designed for hands-free interaction and smart automation using Natural Language Processing and Raspberry Pi hardware.
 
 | Attribute | Engineering Details |
 |---|---|
-| **Stack** | Python, NLP, Raspberry Pi 4 |
+| **Stack** | Python, Natural Language Processing, Raspberry Pi 4 |
 | **Scale** | Embedded AI assistant |
 | **Performance** | Real-time coordination of AI, communication and automation modules |
-| **Security** | Not specified in source material |
+| **Security** | Not specified |
 | **Impact** | Hands-free voice interaction and smart automation |
 | **Recognition** | Winner — AVISHKAR 2K25 Mini Project Exhibition |
+| **Repository** | [GitHub](https://github.com/DeekshithKB) |
 
 ### Engineering Highlights
 
-- Designed an AI-powered assistant using **Natural Language Processing** for voice-based interaction.
-- Implemented speech-to-text and NLP pipelines in Python.
+- Designed an AI-powered assistant using **Natural Language Processing** for hands-free voice interaction.
+- Implemented speech-to-text and NLP pipelines using Python.
 - Applied iterative testing and debugging to improve response accuracy.
 - Deployed the system on **Raspberry Pi 4**.
 - Coordinated AI, communication and automation components in real time.
@@ -172,16 +178,16 @@ An AI-powered voice assistant designed for hands-free interaction and smart auto
 
 Contributing to research and development initiatives spanning artificial intelligence and emerging technology domains while gaining practical exposure to professional engineering workflows.
 
-**Scope of Work**
+### Scope of Work
 
-- Contribute to AI and emerging technology research and development projects.
+- Contribute to artificial intelligence and emerging technology research and development projects.
 - Perform technical documentation and data analysis.
 - Participate in end-to-end project development.
 - Collaborate with mentors and cross-functional team members.
 - Deliver assigned technical work within deadlines.
 - Gain practical exposure to innovation processes and professional business communication.
 
-**Skills**
+### Skills
 
 `Artificial Intelligence` `Research & Development` `Data Analysis` `Technical Documentation` `Project Development` `Collaboration`
 
@@ -208,7 +214,9 @@ Contributing to research and development initiatives spanning artificial intelli
 
 # Certifications
 
-### AWS
+## AWS
+
+<p align="left">
 
 <img src="https://img.shields.io/badge/AWS-IAM-6D28D9?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-EC2-4C1D95?style=for-the-badge&logo=amazonaws&logoColor=white"/>
@@ -220,38 +228,44 @@ Contributing to research and development initiatives spanning artificial intelli
 <img src="https://img.shields.io/badge/AWS-Lambda-4C1D95?style=for-the-badge&logo=awslambda&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-Cloud%20Training-312E81?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 
+</p>
+
 - Introduction to AWS Identity and Access Management (IAM)
 - Introduction to Amazon EC2
 - Introduction to Amazon API Gateway
-- Introduction to Amazon S3
+- Introduction to Amazon Simple Storage Service (S3)
 - Lab — Introduction to Amazon DynamoDB
 - Introduction to Amazon CloudFront
-- Introduction to Amazon VPC
+- Introduction to Amazon Virtual Private Cloud (VPC)
 - Introduction to AWS Lambda
 - Builder Labs — Introduction to AWS Cloud
 - Performing a Basic Audit of Your AWS Environment
 
-### Other Certifications
+## Other Certifications
+
+<p align="left">
 
 <img src="https://img.shields.io/badge/Thaniya%20Technologies-Deep%20Learning-6D28D9?style=flat-square"/>
 <img src="https://img.shields.io/badge/EyeSec%20Cybersecurity-Ethical%20Hacking-4C1D95?style=flat-square"/>
 <img src="https://img.shields.io/badge/Google%20Analytics-Beginners-312E81?style=flat-square"/>
 <img src="https://img.shields.io/badge/Infosys%20Springboard-Technical%20Courses-6D28D9?style=flat-square"/>
 
+</p>
+
 - Deep Learning using PyTorch and TensorFlow — Thaniya Technologies
 - Ethical Hacking Certificate — EyeSec Cybersecurity
 - Google Analytics for Beginners — Google Analytics Academy
 - Introduction to C, Multithreading in Java and additional courses — Infosys Springboard
 
-### Oracle
+## Oracle
 
 No Oracle certification is listed in the current professional profile.
 
-### NPTEL
+## NPTEL
 
 No NPTEL certification is listed in the current professional profile.
 
-### Cisco
+## Cisco
 
 No Cisco certification is listed in the current professional profile.
 
@@ -262,19 +276,19 @@ No Cisco certification is listed in the current professional profile.
 <div align="center">
 
 <a href="https://leetcode.com/">
-<img src="https://img.shields.io/badge/LeetCode-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white"/>
+<img src="https://img.shields.io/badge/LEETCODE-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white"/>
 </a>
 
 <a href="https://www.geeksforgeeks.org/">
-<img src="https://img.shields.io/badge/GeeksforGeeks-4C1D95?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+<img src="https://img.shields.io/badge/GEEKSFORGEEKS-4C1D95?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </a>
 
 <a href="https://www.hackerrank.com/">
-<img src="https://img.shields.io/badge/HackerRank-312E81?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+<img src="https://img.shields.io/badge/HACKERRANK-312E81?style=for-the-badge&logo=hackerrank&logoColor=white"/>
 </a>
 
 <a href="https://www.codechef.com/">
-<img src="https://img.shields.io/badge/CodeChef-6D28D9?style=for-the-badge&logo=codechef&logoColor=white"/>
+<img src="https://img.shields.io/badge/CODECHEF-6D28D9?style=for-the-badge&logo=codechef&logoColor=white"/>
 </a>
 
 </div>
@@ -285,13 +299,19 @@ No Cisco certification is listed in the current professional profile.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=github&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB&rank_icon=github" height="180"/>
+<a href="https://github.com/DeekshithKB">
+<img src="https://github-readme-stats.vercel.app/api?username=DeekshithKB&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB&rank_icon=github&include_all_commits=true&count_private=true" width="48%"/>
+</a>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=github&hide_border=true&background=0D1117&ring=A78BFA&fire=8B5CF6&currStreakLabel=A78BFA&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" height="180"/>
+<a href="https://github.com/DeekshithKB">
+<img src="https://streak-stats.demolab.com?user=DeekshithKB&theme=transparent&hide_border=true&background=0D1117&ring=A78BFA&fire=8B5CF6&currStreakLabel=A78BFA&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" width="48%"/>
+</a>
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=github&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&langs_count=8" height="180"/>
+<a href="https://github.com/DeekshithKB">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeekshithKB&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&langs_count=8&count_private=true" width="48%"/>
+</a>
 
 </div>
 
@@ -301,7 +321,7 @@ No Cisco certification is listed in the current professional profile.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=github&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" width="90%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=DeekshithKB&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" width="95%"/>
 
 </div>
 
@@ -311,7 +331,7 @@ No Cisco certification is listed in the current professional profile.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=github&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&hide_border=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DeekshithKB&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&hide_border=true&custom_title=DeekshithKB%20Contribution%20Graph" width="95%"/>
 
 </div>
 
@@ -321,7 +341,7 @@ No Cisco certification is listed in the current professional profile.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<img src="https://raw.githubusercontent.com/DeekshithKB/DeekshithKB/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
 
@@ -331,6 +351,7 @@ No Cisco certification is listed in the current professional profile.
 
 ```yaml
 profile:
+  name: "Deekshith K B"
   role: "AI/ML Engineer | Full Stack Developer | Cloud Computing"
 
 learning:
