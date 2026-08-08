@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:6D28D9,100:4C1D95&height=190&section=header&text=DEEKSHITH%20K%20B&fontSize=44&fontColor=FFFFFF&fontAlignY=35&desc=AI%2FML%20ENGINEER%20%7C%20FULL%20STACK%20DEVELOPER%20%7C%20CLOUD%20COMPUTING&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
@@ -54,7 +54,7 @@ I follow a product-engineering mindset: understand the problem, design the archi
 
 ### Open To
 
-`AI Engineer` · `Full Stack Developer` · `Cloud Engineer` · `AI/ML Engineering` · `Generative AI` · `Software Engineering`
+`AI Engineer` Â· `Full Stack Developer` Â· `Cloud Engineer` Â· `AI/ML Engineering` Â· `Generative AI` Â· `Software Engineering`
 
 ---
 
@@ -96,19 +96,19 @@ I follow a product-engineering mindset: understand the problem, design the archi
 
 | Domain | Proficiency | Details |
 |---|:---:|---|
-| Machine Learning | ████████░░ | Applied ML concepts within software and product development |
-| Deep Learning | ███████░░░ | Practical exposure using PyTorch and TensorFlow |
-| Natural Language Processing | ████████░░ | NLP pipelines and voice-based AI systems |
-| Generative AI | ████████░░ | AI-powered product development and intelligent itinerary generation |
-| AI Product Engineering | █████████░ | Integrating AI capabilities into full-stack applications |
-| API-Oriented AI Systems | █████████░ | Orchestrating multiple APIs into cohesive AI-powered products |
+| Machine Learning | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘ | Applied ML concepts within software and product development |
+| Deep Learning | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘ | Practical exposure using PyTorch and TensorFlow |
+| Natural Language Processing | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘ | NLP pipelines and voice-based AI systems |
+| Generative AI | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘ | AI-powered product development and intelligent itinerary generation |
+| AI Product Engineering | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘ | Integrating AI capabilities into full-stack applications |
+| API-Oriented AI Systems | â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘ | Orchestrating multiple APIs into cohesive AI-powered products |
 
 ---
 
 # Featured Projects
 
 <details>
-<summary><strong>AI Travel Planner — Full Stack AI Application</strong></summary>
+<summary><strong>AI Travel Planner â€” Full Stack AI Application</strong></summary>
 
 <br/>
 
@@ -141,7 +141,7 @@ An AI-powered, production-style travel planning platform designed to generate pe
 <br/>
 
 <details>
-<summary><strong>Marvin — AI-Powered Voice Assistant</strong></summary>
+<summary><strong>Marvin â€” AI-Powered Voice Assistant</strong></summary>
 
 <br/>
 
@@ -154,7 +154,7 @@ An AI-powered voice assistant designed for hands-free interaction and smart auto
 | **Performance** | Real-time coordination of AI, communication and automation modules |
 | **Security** | Not specified |
 | **Impact** | Hands-free voice interaction and smart automation |
-| **Recognition** | Winner — AVISHKAR 2K25 Mini Project Exhibition |
+| **Recognition** | Winner â€” AVISHKAR 2K25 Mini Project Exhibition |
 | **Repository** | [GitHub](https://github.com/DeekshithKB) |
 
 ### Engineering Highlights
@@ -172,9 +172,9 @@ An AI-powered voice assistant designed for hands-free interaction and smart auto
 
 # Experience
 
-### AI/Tech Research & Development Intern — Thaniya Technologies
+### AI/Tech Research & Development Intern â€” Thaniya Technologies
 
-**April 2026 – Present · Remote**
+**April 2026 â€“ Present Â· Remote**
 
 Contributing to research and development initiatives spanning artificial intelligence and emerging technology domains while gaining practical exposure to professional engineering workflows.
 
@@ -200,13 +200,13 @@ Contributing to research and development initiatives spanning artificial intelli
 | Recognition | Details |
 |---|---|
 | **IEEE Research Presentation** | Presented research on AI-Powered Precision Agriculture with Blockchain Traceability at the 3rd International IEEE Conference on Trends in Quantum Computing and Emerging Business Technologies |
-| **Top 20 Finalist** | National-level Code-Create-Conquer Hackathon — 100+ teams from 4 states |
-| **1st Place** | New Product Launch Event — YUKTHI 2K26 |
-| **Winner** | National Level Code Hunt Competition — GSSS College, Mysuru |
+| **Top 20 Finalist** | National-level Code-Create-Conquer Hackathon â€” 100+ teams from 4 states |
+| **1st Place** | New Product Launch Event â€” YUKTHI 2K26 |
+| **Winner** | National Level Code Hunt Competition â€” GSSS College, Mysuru |
 | **Winner** | Techthron Intercollege Coding Competition |
-| **1st Prize** | Paperazzi Competition — Atria Institute of Technology |
+| **1st Prize** | Paperazzi Competition â€” Atria Institute of Technology |
 | **Winner** | ISAP Competition on Brain Implants |
-| **Mini Project Winner** | AVISHKAR 2K25 Mini Project Exhibition — Coorg Institute of Technology |
+| **Mini Project Winner** | AVISHKAR 2K25 Mini Project Exhibition â€” Coorg Institute of Technology |
 
 </div>
 
@@ -234,11 +234,11 @@ Contributing to research and development initiatives spanning artificial intelli
 - Introduction to Amazon EC2
 - Introduction to Amazon API Gateway
 - Introduction to Amazon Simple Storage Service (S3)
-- Lab — Introduction to Amazon DynamoDB
+- Lab â€” Introduction to Amazon DynamoDB
 - Introduction to Amazon CloudFront
 - Introduction to Amazon Virtual Private Cloud (VPC)
 - Introduction to AWS Lambda
-- Builder Labs — Introduction to AWS Cloud
+- Builder Labs â€” Introduction to AWS Cloud
 - Performing a Basic Audit of Your AWS Environment
 
 ## Other Certifications
@@ -252,10 +252,10 @@ Contributing to research and development initiatives spanning artificial intelli
 
 </p>
 
-- Deep Learning using PyTorch and TensorFlow — Thaniya Technologies
-- Ethical Hacking Certificate — EyeSec Cybersecurity
-- Google Analytics for Beginners — Google Analytics Academy
-- Introduction to C, Multithreading in Java and additional courses — Infosys Springboard
+- Deep Learning using PyTorch and TensorFlow â€” Thaniya Technologies
+- Ethical Hacking Certificate â€” EyeSec Cybersecurity
+- Google Analytics for Beginners â€” Google Analytics Academy
+- Introduction to C, Multithreading in Java and additional courses â€” Infosys Springboard
 
 ## Oracle
 
@@ -341,7 +341,7 @@ No Cisco certification is listed in the current professional profile.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DeekshithKB/DeekshithKB/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<img src="https://raw.githubusercontent.com/DeekshithKB/DeekshithKB/main/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
 
@@ -381,6 +381,7 @@ open_to:
   - "AI/ML Engineering Opportunities"
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DeekshithKB/DeekshithKB/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<img src="https://raw.githubusercontent.com/DeekshithKB/DeekshithKB/main/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
+
