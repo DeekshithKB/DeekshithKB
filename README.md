@@ -360,9 +360,5 @@ open_to:
   - "Full Stack Developer Roles"
   - "Cloud Engineer Roles"
   - "AI/ML Engineering Opportunities"
-<div align="center">
 
-<img src="https://raw.githubusercontent.com/DeekshithKB/DeekshithKB/main/output/github-contribution-grid-snake-dark.svg" width="95%"/>
-
-</div>
 
