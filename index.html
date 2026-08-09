@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DeekshithKB — Themed Profile Preview</title>
+    <link rel="stylesheet" href="../design-system/tokens.css">
+    <link rel="stylesheet" href="../design-system/neumorphic.css">
+    <style>
+      /* Page layout */
+      .page { display:flex; gap:24px; padding:32px; max-width:1200px; margin:0 auto }
+      aside.left { width:320px; display:flex; flex-direction:column; gap:16px }
+      main.right { flex:1 }
+
+      /* README content area styling overrides */
+      #readme { padding:24px; border-radius:16px; background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02)); box-shadow: var(--shadow-inset); }
+      #readme h1, #readme h2, #readme h3 { color: var(--text); }
+      #readme p, #readme li, #readme td { color: var(--muted-text); line-height:1.5 }
+      #readme img { max-width:100%; border-radius:12px }
+
+      /* subtle entrance */
+      .fade-up { animation: fadeUp 360ms cubic-bezier(.2,.9,.2,1) both }
+      @keyframes fadeUp { from { opacity:0; transform: translateY(6px) } to { opacity:1; transform:none } }
+
+      /* Buttons */
+      .preview-actions { display:flex; gap:8px }
+
+      /* Responsive */
+      @media (max-width: 900px) { .page { flex-direction:column } aside.left { width:100% } }
+    </style>
+  </head>
+  <body>
+    <div class="page container">
+      <aside class="left">
+        <div class="profile-card surface fade-up">
+          <div class="avatar"><img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="avatar"></div>
+          <div class="profile-meta">
+            <div class="profile-name">Deekshith K B</div>
+            <div class="profile-bio">AI/ML Engineer | Full Stack Developer | Cloud Computing</div>
+            <div style="margin-top:8px"><button class="btn btn--primary">Follow</button></div>
+          </div>
+        </div>
+
+        <div class="surface fade-up" style="padding:12px; border-radius:12px">
+          <div style="font-weight:700; margin-bottom:8px">Quick Links</div>
+          <div style="display:flex; flex-direction:column; gap:8px">
+            <a href="#readme" class="nav-item">Profile README</a>
+            <a href="../design-system/demo.html" class="nav-item">Design System Demo</a>
+            <a href="../README.md" class="nav-item">Original README.md</a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="right">
+        <div id="structured-header" class="surface fade-up" style="display:flex; gap:16px; align-items:center; padding:18px; margin-bottom:16px">
+          <div style="width:88px; height:88px; border-radius:16px; overflow:hidden; box-shadow:var(--shadow-raised)" class="avatar"><img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="avatar" style="width:100%; height:100%; object-fit:cover"></div>
+          <div style="flex:1">
+            <div style="font-size:1.25rem; font-weight:700; color:var(--text)">Deekshith K B</div>
+            <div style="color:var(--muted-text); margin-top:6px">AI/ML Engineer | Full Stack Developer | Cloud Computing</div>
+            <div style="margin-top:10px; display:flex; gap:8px; align-items:center" id="stat-badges"></div>
+          </div>
+          <div class="preview-actions">
+            <button class="btn btn--primary">Follow</button>
+            <button class="btn btn--secondary">Contact</button>
+          </div>
+        </div>
+
+        <div id="readme" class="surface fade-up">
+          <div id="readme-content">Loading content…</div>
+        </div>
+      </main>
+    </div>
+
+    <!-- marked.js from CDN to render markdown client-side -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      async function renderReadme(){
+        try{
+          const resp = await fetch('../README.md');
+          const md = await resp.text();
+          const html = marked.parse(md);
+          const content = document.getElementById('readme-content');
+          content.innerHTML = html;
+
+          // make external links open in new tab and style links
+          document.querySelectorAll('#readme-content a').forEach(a=>{ a.target='_blank'; a.rel='noopener'; a.classList.add('nav-item'); });
+
+          // style images
+          document.querySelectorAll('#readme-content img').forEach(img=>{ img.classList.add('fade-up'); img.style.borderRadius='12px'; });
+
+          // Post-process top-level sections (h2) into neumorphic cards for clearer visual grouping
+          const container = document.getElementById('readme-content');
+          const headings = Array.from(container.querySelectorAll('h2'));
+          headings.forEach(h2 => {
+            // gather nodes until next h2
+            const wrapper = document.createElement('div');
+            wrapper.className = 'surface card-compact';
+            wrapper.style.margin = '12px 0';
+            wrapper.style.padding = '14px';
+            wrapper.style.borderRadius = '12px';
+
+            // create heading clone
+            const h2clone = h2.cloneNode(true);
+            h2clone.style.marginTop='0';
+            h2clone.style.color='var(--text)';
+            wrapper.appendChild(h2clone);
+
+            // move following siblings into wrapper until next h2
+            let next = h2.nextSibling;
+            while(next && !(next.nodeType===1 && next.tagName.toLowerCase()==='h2')){
+              const toMove = next;
+              next = next.nextSibling;
+              wrapper.appendChild(toMove);
+            }
+
+            // replace original h2 with wrapper
+            h2.parentNode.insertBefore(wrapper, h2);
+            h2.parentNode.removeChild(h2);
+          });
+
+          // Extract popular repositories section into a repo grid and place it under the structured header
+          const allH2s = Array.from(container.querySelectorAll('h2'));
+          const popular = allH2s.find(h => /Popular repositories/i.test(h.textContent));
+          if(popular){
+            // find the wrapper we created earlier which contains this heading
+            const parentWrapper = popular.parentElement.closest('.surface.card-compact');
+            if(parentWrapper){
+              // create a grid and move repository items into it
+              const repoGrid = document.createElement('div');
+              repoGrid.style.display='grid';
+              repoGrid.style.gridTemplateColumns='repeat(auto-fill, minmax(260px, 1fr))';
+              repoGrid.style.gap='12px';
+              repoGrid.style.marginTop='12px';
+
+              // find links inside the section
+              const links = Array.from(parentWrapper.querySelectorAll('a'));
+              links.forEach(a => {
+                const card = document.createElement('div');
+                card.className = 'repo-card fade-up';
+                card.style.padding = '12px';
+                card.innerHTML = `<div class='repo-title'>${a.textContent}</div>` + (a.nextElementSibling && a.nextElementSibling.tagName.toLowerCase()==='p' ? `<div class='repo-desc' style='margin-top:8px'>${a.nextElementSibling.textContent}</div>` : '');
+                // add link
+                card.addEventListener('click', ()=> window.open(a.href, '_blank'));
+                repoGrid.appendChild(card);
+              });
+
+              // insert the grid under the header
+              const header = document.getElementById('structured-header');
+              if(header) header.parentNode.insertBefore(repoGrid, header.nextSibling);
+            }
+          }
+
+          // Add stat badges (profile views, followers, stars) by finding top badge images in README
+          const statArea = document.getElementById('stat-badges');
+          const topImgs = Array.from(container.querySelectorAll('img')).filter(i=> i.src && (i.src.includes('ghpvc') || i.src.includes('followers') || i.src.includes('stars')));
+          topImgs.slice(0,3).forEach(img => {
+            const node = img.cloneNode(true);
+            node.style.height='28px'; node.style.borderRadius='8px'; node.style.boxShadow='var(--shadow-raised)'; node.style.border='1px solid var(--border)'; node.style.background='var(--surface)';
+            statArea.appendChild(node);
+          });
+
+          // Enhance contribution images if present in output folder
+          const imgs = container.querySelectorAll('img');
+          imgs.forEach(img => {
+            if(img.src && (img.src.includes('github-contribution-grid') || img.src.includes('github-contribution-grid-snake') || img.src.includes('streak'))){
+              const panel = document.createElement('div');
+              panel.className = 'contrib-wrap fade-up';
+              panel.style.marginTop='10px';
+              panel.appendChild(img.cloneNode(true));
+              img.parentNode.replaceChild(panel, img);
+            }
+          });
+
+          // small animation on cards
+          document.querySelectorAll('.surface.card-compact').forEach(c=>{ c.addEventListener('mouseover', ()=> c.style.transform='translateY(-4px)'); c.addEventListener('mouseout', ()=> c.style.transform='none'); });
+
+        }catch(e){
+          document.getElementById('readme-content').innerText = 'Failed to load README.md: '+e.message;
+        }
+      }
+      renderReadme();
+    </script>
+  </body>
+</html>
