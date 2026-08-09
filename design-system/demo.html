@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Neumorphic Theme Demo</title>
+    <link rel="stylesheet" href="./tokens.css">
+    <link rel="stylesheet" href="./neumorphic.css">
+    <style>
+      body { font-size: 15px }
+      .layout { display:flex; gap:24px; padding:24px }
+      .main { flex:1; display:flex; flex-direction:column; gap:16px }
+    </style>
+  </head>
+  <body>
+    <div class="layout container">
+      <aside class="sidebar surface">
+        <div class="profile-card">
+          <div class="avatar"><img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="avatar"></div>
+          <div class="profile-meta">
+            <div class="profile-name">Existing GitHub Username</div>
+            <div class="profile-bio">Existing short bio — preserved by you</div>
+          </div>
+        </div>
+
+        <nav style="margin-top:16px; display:flex; flex-direction:column; gap:8px">
+          <div class="nav-item active"><span>Overview</span></div>
+          <div class="nav-item"><span>Repositories</span></div>
+          <div class="nav-item"><span>Stars</span></div>
+          <div class="nav-item"><span>Followers</span></div>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <section class="surface profile-card">
+          <div style="flex:1">
+            <div class="profile-name">Existing GitHub Username</div>
+            <div class="profile-bio">Full profile information is preserved by integration.</div>
+          </div>
+          <div><button class="btn btn--primary">Follow</button></div>
+        </section>
+
+        <section class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">123</div>
+            <div class="stat-label">Repositories</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">456</div>
+            <div class="stat-label">Followers</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">78</div>
+            <div class="stat-label">Stars</div>
+          </div>
+        </section>
+
+        <section>
+          <div class="surface repo-card">
+            <div class="repo-row">
+              <div>
+                <div class="repo-title">existing-repo-name</div>
+                <div class="repo-desc">Existing repository description (do not change)</div>
+              </div>
+              <div class="repo-meta">
+                <div class="badge">JavaScript</div>
+                <div class="badge">★ 42</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

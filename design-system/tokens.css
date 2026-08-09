@@ -1,0 +1,47 @@
+/* Design Tokens for Soft Neumorphic Theme */
+:root {
+  /* Colors */
+  --bg-cream: #F6F1E9; /* warm cream/ivory background */
+  --surface: #FBF9F6; /* off-white surfaces */
+  --surface-pressed: #F0ECE4; /* slightly darker surface */
+  --inset-surface: #EFEBE2;
+  --primary-teal: #0E6B66; /* deep teal */
+  --primary-teal-dark: #074E4C;
+  --text: #222225; /* dark charcoal */
+  --muted-text: #6B6B6B;
+  --border: #E6E0D8;
+  --error: #D9534F;
+  --success: #2E8B57;
+
+  /* Spacing */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  /* Shadows (soft, low-contrast) */
+  --shadow-raised: 12px 12px 30px rgba(10,10,10,0.06), -8px -8px 24px rgba(255,255,255,0.8);
+  --shadow-hover: 6px 6px 20px rgba(10,10,10,0.05), -4px -4px 12px rgba(255,255,255,0.85);
+  --shadow-inset: inset 6px 6px 18px rgba(10,10,10,0.04), inset -4px -4px 10px rgba(255,255,255,0.85);
+  --shadow-pressed: inset 8px 8px 20px rgba(10,10,10,0.06), inset -6px -6px 18px rgba(255,255,255,0.75);
+
+  /* Icon stroke weight suggestion */
+  --icon-stroke: 2px;
+
+  /* Transition */
+  --transition-fast: 150ms cubic-bezier(.2,.9,.2,1);
+  --transition-medium: 240ms cubic-bezier(.2,.9,.2,1);
+}
+
+/* Useful system colors for components */
+.u-text-muted { color: var(--muted-text); }
+.u-text-main { color: var(--text); }
