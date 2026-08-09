@@ -7,10 +7,19 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Ensure commit identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -24,3 +33,6 @@ jobs:
           publish_dir: ./profile-theme
           publish_branch: gh-pages
           keep_files: false
+          allow_empty_commit: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
