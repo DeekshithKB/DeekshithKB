@@ -1,5 +1,13 @@
 ﻿<div align="center">
 
+<p>
+<a href="https://DeekshithKB.github.io/DeekshithKB/profile-theme/index.html" target="_blank" rel="noreferrer">
+<img src="https://img.shields.io/badge/View%20Live%20Theme-Profile%20Theme-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="View Live Theme"/>
+</a>
+</p>
+
+<p><strong>New:</strong> View a live, themed preview of this profile (design preserves all README content) — click the badge above.</p>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:6D28D9,100:4C1D95&height=190&section=header&text=DEEKSHITH%20K%20B&fontSize=44&fontColor=FFFFFF&fontAlignY=35&desc=AI%2FML%20ENGINEER%20%7C%20FULL%20STACK%20DEVELOPER%20%7C%20CLOUD%20COMPUTING&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <br/>
@@ -338,73 +346,18 @@ profile:
 learning:
   - "Advanced AI/ML Engineering"
   - "Generative AI"
-
-# Design System — Soft Neumorphic Theme
-
-Overview
-I created a standalone, framework-agnostic neumorphic design system inspired by the uploaded reference image. It provides centralized design tokens and component styles so you can apply a premium "Soft Neumorphic / Tactile Developer Dashboard" look without changing any data, API logic, or project functionality.
-
-Files in this repository
-- [design-system/tokens.css](design-system/tokens.css): centralized CSS variables (colors, spacing, radii, shadows)
-- [design-system/neumorphic.css](design-system/neumorphic.css): component and utility styles (surfaces, cards, sidebar, buttons, inputs, responsive rules)
-- [design-system/demo.html](design-system/demo.html): minimal preview page demonstrating the theme
-- [scripts/apply_theme.ps1](scripts/apply_theme.ps1): optional Windows PowerShell helper to copy the CSS files into your project and inject imports into common global CSS files
-
-Key design tokens (summary)
-- Background: warm cream — `--bg-cream` (warm ivory foundation)
-- Surface: soft off-white — `--surface`, `--inset-surface`
-- Primary accent: deep teal — `--primary-teal`, `--primary-teal-dark`
-- Text: dark charcoal — `--text`; muted: `--muted-text`
-- Spacing tokens: `--space-4`, `--space-8`, `--space-12`, `--space-16`, `--space-24`, `--space-32`, `--space-48`
-- Radii: `--radius-sm` (8px), `--radius-md` (~14px), `--radius-lg` (~24px), `--radius-xl` (~32px)
-- Shadows: `--shadow-raised`, `--shadow-inset`, `--shadow-hover`, `--shadow-pressed`
-
-Quick preview
-Open [design-system/demo.html](design-system/demo.html) in your browser to see a small live preview of the theme. It demonstrates the visual treatments while preserving sample content.
-
-How to integrate into your project
-1. Copy `design-system/tokens.css` and `design-system/neumorphic.css` into your project's styles directory (for example: `src/styles/`).
-2. Import the tokens first, then the neumorphic CSS in your global CSS or HTML `<head>`.
-
-Example (manual import)
-```html
-<!-- in your index.html or main CSS entry -->
-<link rel="stylesheet" href="/src/styles/tokens.css">
-<link rel="stylesheet" href="/src/styles/neumorphic.css">
+  - "Cloud Computing"
 ```
 
-Automated helper (PowerShell)
-You can use the provided helper to copy files and inject imports into common global CSS files. Run a dry-run first to preview changes:
-
-```powershell
-# Dry run
-.\scripts\apply_theme.ps1 -ProjectPath 'C:\path\to\your\project' -DryRun
-
-# To actually apply
-.\scripts\apply_theme.ps1 -ProjectPath 'C:\path\to\your\project'
-```
-
-Integration notes
-- The CSS is intentionally framework-agnostic and keeps all existing markup, scripts, and API logic unchanged.
-- If your project uses CSS-in-JS or a build tool (Webpack, Vite, Next.js), import the two CSS files into your global entry (for example, `src/index.css` or `pages/_app.js` in Next).
-- If you prefer, I can modify your project files directly to add the classes and imports — tell me the project path and framework and I will proceed.
-
-Verification and visibility on GitHub
-- The `README.md` now contains this Design System section so the theme is visible directly on your repository page and dashboard.
-- After you push these changes to GitHub, the links and instructions will be visible on your project README.
-
-Preservation guarantee
-- This change is purely visual and file-additive. No existing GitHub data, API calls, routing, or dynamic logic has been removed or altered.
-
-If you want me to apply the theme into your actual app files now, tell me the project root path and whether to run the PowerShell helper (`-DryRun` first). I will proceed and then run a verification checklist.
-  - "Product Engineering"
+- Building production-ready AI/ML systems with full-stack engineering
+- Designing polished developer experiences and cloud-native products
+- Growing in advanced AI, generative systems, and scalable infrastructure
 
 open_to:
   - "AI Engineer Roles"
   - "Full Stack Developer Roles"
   - "Cloud Engineer Roles"
   - "AI/ML Engineering Opportunities"
-
 
 ---
 
